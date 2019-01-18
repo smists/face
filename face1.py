@@ -9,8 +9,12 @@ import os, glob,math
 from skimage import io
 
 """
-人脸特征点检测
+人脸特征点检测 栽植模压模压顶替
 """
+
+
+
+
 def rect_to_bb(rect): # 获得人脸矩形的坐标信息
     x = rect.left()
     y = rect.top()
